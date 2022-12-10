@@ -20,18 +20,26 @@ Assim já temos o texto padrão e o background de grande parte das páginas */
     color: #DA6A00;
 }
 
+.texto-branco {
+    color: white;
+}
 
 .fundo-cinza {
     background-color: #F6F6F6;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    min-height: 100vh;
+    max-height: 300vh;
+    padding: 10px;
     border-radius: 0 300px 0 0;
     z-index: -1;
 }
 
 .fundo-primaria {
     background-color: #14471E;
+}
+
+.fundo-secundario {
+    background-color: #DA6A00 ;
 }
 
 .return {
@@ -64,6 +72,11 @@ Assim já temos o texto padrão e o background de grande parte das páginas */
     width: 25%;
 }
 
-.container .border-bottom {
-    border: 20px;
+.noticias a {
+    text-decoration: none;
+    color: #DA6A00;
+}
+
+.noticias a:hover {
+    text-decoration: underline;
 }
