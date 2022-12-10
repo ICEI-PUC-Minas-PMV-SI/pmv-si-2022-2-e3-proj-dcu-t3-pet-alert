@@ -10,40 +10,65 @@
 </head>
 <body class="texto fundo-primaria">
 
-    <div class="fundo-cinza"></div>
-    <div class="pt-2 ps-2 d-flex return">
-        <img src="images/Voltar.png" alt="voltar" width="24px" height="24px">
-        <p>Voltar</p>
-    </div>
-    <h1 class="titulo texto-primaria fw-bold text-center mb-4">Blog</h1>
-    
-    <div class="corpo">
-        <div class="filter d-flex">
-            <div class="input-group me-3">
-                <button class="btn" type="button" id="button"><img src="images/Pesquisa.png" alt="" width="20px"></button>
-                <input type="text" class="form-control" aria-label="Pesquisa" aria-describedby="button">
-            </div>
-            <select class="form-select me-3 tag" aria-label="Tags">
-                <option selected>Tags</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <label for="classificacao" class="form-label" >Classificar por:</label>
-            <select class="form-select" aria-label="Classificar por" id="classificacao">
-                <option selected>Mais relevante</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
+    <div class="fundo-cinza">
+        <div class="pt-2 ps-2 d-flex return" onclick="history.back()" type="button">
+            <img src="images/Voltar.png" alt="voltar" width="24px" height="24px">
+            <p>Voltar</p>
         </div>
-        <div class="noticias">
-            <div class="container">
-                <div class="row m-5 shadow-sm rounded">
-                    <img src="images/dog.png" alt="" width="fit-content" class="col-4 m-2 rounded">
-                    <div class="col">
-                        <h2>Matéria</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, est.</p>
+        <h1 class="titulo texto-primaria fw-bold text-center mb-4">Blog</h1>
+        
+        <div class="corpo">
+            <div class="filter d-flex">
+                <div class="input-group me-3">
+                    <button class="btn" type="button" id="button"><img src="images/Pesquisa.png" alt="" width="20px"></button>
+                    <input type="text" class="form-control" aria-label="Pesquisa" aria-describedby="button">
+                </div>
+                <select class="form-select me-3 tag" aria-label="Tags">
+                    <option selected>Tags</option>
+                    <option value="1">Cuidados</option>
+                    <option value="2">Alertas</option>
+                    <option value="3">Dicas</option>
+                </select>
+                <label for="classificacao" class="form-label" >Classificar por:</label>
+                <select class="form-select" aria-label="Classificar por" id="classificacao">
+                    <option selected>Mais relevante</option>
+                    <option value="1">Mais recentes</option>
+                    <option value="2">Mais antigas</option>
+                </select>
+            </div>
+            <div class="noticias">
+                <div class="container">
+                    <div class="row m-5 p-4 shadow rounded">
+                        <img src="images/dog.png" alt="" width="fit-content" class="col-4 rounded">
+                        <div class="col">
+                            <h2>Matéria</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates rem quis, debitis quaerat assumenda porro iure quam alias, voluptatum, deserunt facilis numquam placeat vel?</p>
+                            <a href="materia.html">Clique para ler mais.</a>
+                        </div>  
+                    </div>
+                    <div class="row m-5 p-4 shadow rounded">
+                        <img src="images/dog.png" alt="" width="fit-content" class="col-4 rounded">
+                        <div class="col">
+                            <h2>Matéria</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates rem quis, debitis quaerat assumenda porro iure quam alias, voluptatum, deserunt facilis numquam placeat vel?</p>
+                            <a href="materia.html">Clique para ler mais.</a>
+                        </div>  
+                    </div>
+                    <div class="row m-5 p-4 shadow rounded">
+                        <img src="images/dog.png" alt="" width="fit-content" class="col-4 rounded">
+                        <div class="col">
+                            <h2>Matéria</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates rem quis, debitis quaerat assumenda porro iure quam alias, voluptatum, deserunt facilis numquam placeat vel?</p>
+                            <a href="materia.html">Clique para ler mais.</a>
+                        </div>  
+                    </div>
+                    <div class="row m-5 p-4 shadow rounded">
+                        <img src="images/dog.png" alt="" width="fit-content" class="col-4 rounded">
+                        <div class="col">
+                            <h2>Matéria</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates rem quis, debitis quaerat assumenda porro iure quam alias, voluptatum, deserunt facilis numquam placeat vel?</p>
+                            <a href="materia.html">Clique para ler mais.</a>
+                        </div>  
                     </div>
                 </div>
             </div>
