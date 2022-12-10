@@ -1,0 +1,69 @@
+/* Formatação padrão para todas as páginas
+-Usar no body as classes "fundo-primaria e texto"
+-Criar uma div que vai englobar todas as outras com a classe "fundo-cinza"
+Assim já temos o texto padrão e o background de grande parte das páginas */
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1B1B1B;
+}
+
+.texto-primaria {
+    color: #14471E;
+}
+
+.texto-secundaria {
+    color: #DA6A00;
+}
+
+
+.fundo-cinza {
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0 300px 0 0;
+    z-index: -1;
+}
+
+.fundo-primaria {
+    background-color: #14471E;
+}
+
+.return {
+    width: fit-content;
+}
+
+.return:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Classes para o blog */
+
+.corpo {
+    margin: 60px;
+}
+.filter {
+    align-items: center;
+}
+
+.filter .form-control, .filter .form-select {
+    height: 50px;
+}
+
+.filter .tag {
+    width: 200px;
+}
+
+.filter .form-label {
+    width: 25%;
+}
+
+.container .border-bottom {
+    border: 20px;
+}
