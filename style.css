@@ -162,3 +162,20 @@ a {
 .container .row .fundo-primaria:hover {
     background-color: #DA6A00;
 }
+
+/*Classes tela adoção */
+
+.imgRedonda {
+
+    border-radius: 50%;
+width: 265px;
+height: 225px;
+transition: all 0.3s;
+}
+
+
+.imgRedonda:hover {
+
+border-radius: 0%;
+transition: all 0.3s;
+}
