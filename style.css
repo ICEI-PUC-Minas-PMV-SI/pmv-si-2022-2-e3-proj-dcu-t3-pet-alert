@@ -34,12 +34,29 @@ Assim já temos o texto padrão e o background de grande parte das páginas */
     z-index: -1;
 }
 
+.fundo-padrao {
+    background-color: #e9e9e9;
+}
+
 .fundo-primaria {
     background-color: #14471E;
 }
 
 .fundo-secundario {
     background-color: #DA6A00 ;
+}
+
+.fundo-foto {
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.logo {
+    width: 400px;
+    padding-top: 26vh;
+    
 }
 
 .return {
@@ -49,6 +66,22 @@ Assim já temos o texto padrão e o background de grande parte das páginas */
 .return:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-laranja {
+    color: white;
+    background-color: #DA6A00;
+    border-color: #DA6A00;
+}
+
+.btn-vermelho {
+    color: white;
+    background-color: #DA0D00;
+    border-color: #DA0D00;
 }
 
 /* Classes para o blog */
@@ -73,10 +106,59 @@ Assim já temos o texto padrão e o background de grande parte das páginas */
 }
 
 .noticias a {
-    text-decoration: none;
     color: #DA6A00;
 }
 
 .noticias a:hover {
     text-decoration: underline;
+}
+
+/* Classes tela de inicio */
+
+.fundo-primaria-2 {
+    background-color: #14471E;
+    position: fixed;
+    bottom: 0;
+    height: 35vh;
+    width: 100%;
+}
+
+.fundo-cinza-2 {
+    background-color: #F6F6F6;
+    height: 100%;
+    border-radius: 0 300px 0 300px;
+}
+
+.btn-verde {
+    background-color: #14471E;
+    color: white;
+}
+
+.btn-outline-verde {
+    color: #14471E;
+    background-color: #F6F6F6;
+    border-color: #14471E;
+}
+
+.btn-outline-verde:hover {
+    background-color: #e9e9e9;
+}
+
+.fundo-cinza-2 button {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.fundo-cinza-2 .buttons {
+    padding: 10vh;
+}
+
+.fundo-cinza-2 .buttons a {
+    text-decoration: none;
+}
+
+/* Classes telas principais */
+
+.container .row .fundo-primaria:hover {
+    background-color: #DA6A00;
 }
