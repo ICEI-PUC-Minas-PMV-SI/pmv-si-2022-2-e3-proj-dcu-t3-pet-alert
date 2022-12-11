@@ -179,3 +179,26 @@ transition: all 0.3s;
 border-radius: 0%;
 transition: all 0.3s;
 }
+
+/*Classes tela ocorrenciaUsuario */
+
+.mb-3 { 
+    color: #DA6A00;
+    transition: all 0.3s
+}
+    
+
+.mb-3:hover{
+    background-color:#14471E ;
+    transition: all 0.3s
+}
+
+.btn-primary {
+    background-color: #14471E;
+    transition: all 0.3s
+}
+
+.btn-primary:hover {
+    background-color:  #DA6A00;
+    transition: all 0.3s
+}
